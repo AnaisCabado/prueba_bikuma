@@ -1,0 +1,35 @@
+#CTA {
+    display: flex;
+    flex-flow: row;
+    gap: 2em;
+    justify-content: center;
+}
+
+.cta-card {
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+    padding: 2em 1em;
+
+    border-radius: 20px;
+
+    max-width: 20%;
+
+    text-align: center;
+
+    transition: all .3s ease;
+
+    cursor: pointer;
+
+    img {
+        width: 20px;
+    }
+}
+
+.cta-card:hover {
+    box-shadow: .5em .5em 0 rgba(0, 0, 0, 1);
+}

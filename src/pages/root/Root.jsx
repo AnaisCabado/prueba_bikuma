@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
-import Header from "../../components/hero/Hero";
+import Header from "../../components/home/header/Header";
+import Footer from "../../components/home/footer/Footer";
 function Root() {
     return (
         <>
@@ -8,10 +9,10 @@ function Root() {
                 <Header />
             </header>
             <main>
-                <h1>MAIN</h1>
+                <Outlet />
             </main>
             <footer>
-                <p>Copyright © 2025</p>
+                <Footer />
             </footer>
         </>
     );

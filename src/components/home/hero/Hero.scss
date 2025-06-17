@@ -1,0 +1,17 @@
+#hero {
+    background-image: url("/assets/images/slide1Image.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.hero__text {
+    max-width: 50%;
+    display: flex;
+    flex-flow: column;
+    gap: 1em;
+}
+
+.hero__text p {
+    font-size: 2rem;
+}
+

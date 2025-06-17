@@ -1,0 +1,15 @@
+#logotypes {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+
+    .logotype {
+        max-width: 150px;
+        transition: all .3s ease;
+    }
+
+    .logotype:hover {
+        transform: scale(1.2);
+    }
+}

@@ -1,0 +1,111 @@
+#footer {
+    background-color: #005EB8;
+    color: white;
+    padding: 4em 10em 2em;
+    display: flex;
+    flex-flow: column;
+    gap: 4em;
+
+    .footer-info {
+        display: flex;
+        flex-flow: row;
+        gap: 2em;
+        width: 100%;
+
+        .footer-info__about-us {
+            display: flex;
+            flex-flow: column;
+            gap: 1em;
+            width: 40%;
+        }
+
+
+        .footer-info__sections {
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            gap: 1em;
+            width: 20%;
+        }
+
+        .footer-info__form {
+            width: 40%;
+        }
+    }
+
+    .footer-copyright {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+
+        .footer-copyright__text {
+            display: flex;
+            flex-flow: row;
+            gap: .5em;
+            opacity: .5;
+        }
+
+        .footer-copyright__social {
+            display: flex;
+            flex-flow: row;
+            gap: 2em;
+        }
+    }
+}
+
+
+
+.footer-info__form form {
+    background-color: #004c9498;
+    padding: 2em 1em;
+    text-align: center;
+    border-radius: 20px;
+
+    display: flex;
+    flex-flow: column;
+    gap: 1em
+}
+
+.footer-info__form form h5 {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.footer-info__form form input {
+    padding: .5em 1em;
+    border-radius: 100px;
+    border: none;
+    margin: .5em 0;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.footer-info__form form .checkbox {
+    display: flex;
+    flex-flow: row;
+    font-size: .8rem;
+    gap: .5em;
+}
+
+.footer-info__form form input[type="checkbox"] {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.footer-info__form form button {
+    background-color: #004c94;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 1em;
+    width: 100%;
+}
+
+.footer-logo {
+    max-width: 300px;
+}
