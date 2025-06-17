@@ -15,6 +15,7 @@
     flex-direction: row;
     animation: scroll-left 40s linear infinite;
     margin-top: 2.5em;
+    min-width: max-content;
 
     .news-card {
       flex: 0 0 auto;
@@ -71,11 +72,6 @@
 @media (max-width: 768px) {
   #news {
     .carousel-wrapper {
-      height: 300px;
-    }
-
-    .news-list {
-      animation: scroll-left 20s linear infinite;
     }
 
     .news-card {

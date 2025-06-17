@@ -15,6 +15,7 @@
     flex-direction: row;
     animation: scroll-left 40s linear infinite;
     margin-top: 2.5em;
+    min-width: max-content;
 
     .projects-card {
       flex: 0 0 auto;

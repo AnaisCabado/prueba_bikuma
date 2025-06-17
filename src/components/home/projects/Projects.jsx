@@ -35,7 +35,7 @@ function Projects() {
 
     return (
         <section id="projects">
-            <h2>Conoce las últimas novedades de Puntodis</h2>
+            <h2>Proyectos de accesibilidad universal</h2>
             <div className="carousel-wrapper">
                 <article className="projects-list">
                     {[...projectsCards, ...projectsCards].map((card, index) => (
