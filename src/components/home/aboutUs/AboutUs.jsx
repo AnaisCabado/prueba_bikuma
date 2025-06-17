@@ -14,6 +14,8 @@ function AboutUs() {
                     </svg>
                 </button>
             </article>
+
+            <img src="/assets/images/slide2Image.svg" alt="image" loading='lazy' />
         </section>
     )
 }

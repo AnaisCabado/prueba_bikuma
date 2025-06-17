@@ -13,6 +13,9 @@ function Hero() {
                     </svg>
                 </button>
             </div>
+            <div className="hero__img">
+                <img src="/assets/images/slide1Image.svg" alt="hero" loading="lazy" />
+            </div>
         </section>
     )
 }

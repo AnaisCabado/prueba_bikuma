@@ -1,3 +1,5 @@
+@import '/src/styles/variables';
+
 #about-us {
     background-image: url("/assets/images/slide2Image.svg");
     background-repeat: no-repeat;
@@ -7,7 +9,8 @@
     color: white;
 
     display: flex;
-    justify-content: flex-end;
+    flex-flow: column;
+    align-items: flex-end;
 
     .about-us__content {
         max-width: 40%;
@@ -16,5 +19,31 @@
         gap: 2em;
 
         margin: 10em 0;
+    }
+
+    img {
+        display: none;
+    }
+}
+
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    #about-us {
+        background-image: none;
+
+        color: $secondary-color;
+        align-items: center;
+
+        .about-us__content {
+            max-width: 100%;
+            gap: 1em;
+            margin: 0;
+        }
+
+        img {
+            display: flex;
+        }
     }
 }

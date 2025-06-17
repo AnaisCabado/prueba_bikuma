@@ -46,3 +46,12 @@
 .services-card:hover {
     box-shadow: .5em .5em 0 rgba(0, 0, 0, 1);
 }
+
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .services-card {
+        width: 100%;
+    }
+}

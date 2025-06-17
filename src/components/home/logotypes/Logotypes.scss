@@ -13,3 +13,12 @@
         transform: scale(1.2);
     }
 }
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    #logotypes {
+        flex-flow: column;
+        justify-content: center;
+    }
+}

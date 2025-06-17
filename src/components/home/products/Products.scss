@@ -40,3 +40,19 @@
 .product-card img:hover {
     transform: scale(1.1);
 }
+
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    #products {
+        .products-list {
+            flex-flow: column;
+            justify-content: center;
+        }
+    }
+
+    .product-card__img {
+        height: 300px;
+    }
+}

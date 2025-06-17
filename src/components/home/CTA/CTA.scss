@@ -33,3 +33,18 @@
 .cta-card:hover {
     box-shadow: .5em .5em 0 rgba(0, 0, 0, 1);
 }
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    #CTA {
+        flex-flow: column;
+    }
+
+    .cta-card {
+        max-width: 100%;
+        img {
+            width: 20px;
+        }
+    }
+}

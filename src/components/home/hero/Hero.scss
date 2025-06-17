@@ -1,7 +1,7 @@
 #hero {
-    background-image: url("/assets/images/slide1Image.svg");
-    background-repeat: no-repeat;
-    background-position: right;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
 }
 
 .hero__text {
@@ -15,3 +15,15 @@
     font-size: 2rem;
 }
 
+
+
+/* RESPONSIVE */
+@media (max-width: 1240px) {
+    #hero {
+        flex-flow: column;
+    }
+
+    .hero__text {
+        max-width: 100%;
+    }
+}
