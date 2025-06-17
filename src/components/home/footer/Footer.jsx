@@ -14,7 +14,7 @@ function Footer() {
                         </svg>
                     </button>
                     <div className="footer-info__emblems">
-                        {/* TODO AÑADIR EMBLEMAS */}
+                        <img src="/assets/images/aenor.png" alt="aenor" loading="lazy" />
                     </div>
                 </div>
 

@@ -13,7 +13,6 @@ function Hero() {
                     </svg>
                 </button>
             </div>
-            {/* TODO AÑADIR IMAGEN */}
         </section>
     )
 }
