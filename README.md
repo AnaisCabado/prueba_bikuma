@@ -1,12 +1,50 @@
-# React + Vite
+## Prueba Frontend Bikuma
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Repositorio
 
-Currently, two official plugins are available:
+[https://github.com/AnaisCabado/prueba_bikuma](https://github.com/AnaisCabado/prueba_bikuma)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Objetivo
 
-## Expanding the ESLint configuration
+Implementar el diseño proporcionado en Figma como una página web funcional y fiel al prototipo.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologías Utilizadas
+**React**  
+Framework principal para el desarrollo de componentes
+**SASS/SCSS**
+Preprocesador CSS para estilos modulares y reutilizables
+
+## Desarrollo y Decisiones Técnicas
+
+### 1. *Fidelidad al Diseño*
+
+- Replicado visual según el prototipo de Figma.
+- Respeto por márgenes, colores, tipografías y espaciados originales.
+- Combinación de *flex* y *grid* para una estructura adaptable.
+- Iconografía y recursos visuales integrados desde Figma, exceptuando algún svg sacado de Bootstrap.
+
+### 2. *Calidad del Código*
+
+- Arquitectura basada en componentes funcionales (React).
+- SCSS modular, separado por componente.
+- Uso coherente de nomenclatura BEM y convenciones claras.
+- Código limpio y ordenado
+
+### 3. *Funcionalidad*
+
+- Carrusel automático de noticias sin dependencias externas, intenté implementar el framework de Swiper pero me daba problemas así que decidí crear una solución a mano.
+- Hover y transiciones suaves en tarjetas y botones.
+- Zoom animado en las cards del carrusel.
+- Menú responsive completamente funcional.
+
+### 4. *Optimización*
+
+- Imágenes optimizadas y cargadas con `loading="lazy"`.
+- Animaciones suaves usando `transform` y `will-change`.
+- Etiquetas semánticas para SEO y accesibilidad.
+
+### 5. *Compatibilidad y Responsive Design*
+
+- Responsive para desktop y móviles.
+- Media queries específicas para adaptar el layout.
+- Pruebas realizadas en Chrome, Firefox y Edge.
